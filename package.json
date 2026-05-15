@@ -1,0 +1,28 @@
+{
+  "name": "vafo-digital-task",
+  "version": "1.0.0",
+  "description": "A simple Node.js/TypeScript lambda that analyzes an input string",
+  "main": "dist/handler.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bailsby/vafo-digital-task.git"
+  },
+  "keywords": [],
+  "author": "Jake Bailey",
+  "license": "ISC",
+  "type": "commonjs",
+  "homepage": "https://github.com/Bailsby/vafo-digital-task#readme",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.161",
+    "@types/node": "^25.8.0",
+    "@vitest/coverage-v8": "^4.1.6",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.6"
+  }
+}
